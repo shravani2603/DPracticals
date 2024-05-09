@@ -1,0 +1,22 @@
+#############
+
+su root
+ mount -t vboxsf windows_file /home/cloudera/Desktop/cloudera_file
+
+############
+
+pwd 
+ls
+Hadoop fs -put Desktop/Process.txt Process.txt
+
+(jar file)
+
+Hadoop jar Process.jar Process.Process Process.txt dir12
+
+Hadoop fs -cat dir12/part-r-00000
+
+###############
+
+https://surl.li/hlvhl
+
+##########
